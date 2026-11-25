@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets, Credentials & API Keys (Never commit to GitHub)
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+*credentials*.json
+*secret*
+
+# Archives & Large Raw Datasets / Artifacts
+# (External Kaggle datasets are documented in each month's README.md)
+*.rar
+*.zip
+MONTH_02_TITANIC_PREDICTION/data/*.csv
+MONTH_03_DATA_PREPARATION_AND_EDA/TASK_03_CUSTOMER_CHURN/data/*.csv
+MONTH_03_DATA_PREPARATION_AND_EDA/TASK_04_NETFLIX_EDA/data/*.csv
+MONTH_04_MOVIE_RECOMMENDATION_SYSTEM/data/*.csv
+MONTH_05_FLIGHT_DELAY_PREDICTION/data/*.csv
+
+# Large binary model artifacts (>50MB should use Git LFS or be regenerated locally)
+MONTH_04_MOVIE_RECOMMENDATION_SYSTEM/models/similarity_matrix.pkl
+MONTH_05_FLIGHT_DELAY_PREDICTION/models/*.pkl
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+OrderID,Region,Category,Units,UnitPrice,Revenue
+1001,North,Electronics,2.0,450.0,900.0
+1002,South,Furniture,1.0,300.0,300.0
+1003,East,Electronics,3.0,450.0,1350.0
+1004,West,Office,2.5,45.0,112.5
+1005,North,Furniture,4.0,300.0,1200.0
+1007,South,Electronics,1.0,300.0,300.0
+1008,West,Furniture,5.0,300.0,1500.0
